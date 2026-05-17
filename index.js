@@ -10,6 +10,10 @@ mongoose.connect(mongoUri).then(
     ()=>{
         console.log("Connected to MongoDB")
     }
+).catch(
+    ()=>{
+        console.log("Error connecting to MongoDB")
+    }
 )
 
 
